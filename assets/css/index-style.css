@@ -1,0 +1,81 @@
+.side-bar{
+    margin-left: 50px;
+    padding-top: 30px;
+  
+
+}
+.side-bar a{
+    font-size: 4vh;
+    text-decoration: none;
+    color: black;
+}
+.shop{
+    color: lightgreen;
+}
+.right-path{
+    float: right;
+    margin-right: 50px;
+}
+.side-bar a.help{
+    text-decoration: none;
+    font-size: 16px; 
+    margin-right: 10px;
+}
+.back-ground{
+    background-image: url("../image/background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.text{
+    color: gray;
+}
+.input{
+    width: 50%;
+    border-radius: 20px;
+    height: 30px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    outline: none;
+}
+.first-card{
+    border: 1px solid black;
+    width: 30%;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap:120px;
+    margin-left: 30px;
+    
+    
+}
+.item1{
+    border: 1px solid black;
+    color: white;
+    background-color: lightcoral;
+    width: 100%;
+    margin: 30px;
+ 
+}
+.item2{
+    border: 1px solid black;
+    color: white;
+    background-color: orange;
+    width: 100%;
+    margin: 30px;
+}
+.item3{
+    border: 1px solid black;
+    color: white;
+    background-color: palevioletred;
+    width: 100%;
+    margin: 30px;
+  
+}
+.img{
+    float: right;
+    width: 60px;
+    vertical-align: middle;
+}
