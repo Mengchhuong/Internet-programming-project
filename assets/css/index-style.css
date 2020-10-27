@@ -1,8 +1,6 @@
 .side-bar{
-    margin-left: 50px;
+    margin-left: 30px;
     padding-top: 30px;
-  
-
 }
 .side-bar a{
     font-size: 4vh;
@@ -33,10 +31,14 @@
 .input{
     width: 50%;
     border-radius: 20px;
+    border: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     height: 30px;
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     outline: none;
+    padding: 10px;
+    font-size: 16px;
 }
 .first-card{
     border: 1px solid black;
@@ -45,37 +47,117 @@
 }
 .grid{
     display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-gap:120px;
-    margin-left: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap: 1em;
+    margin: 30px;
+    /* padding:  0 8em; */
     
     
 }
 .item1{
+    padding-left: 20px;
     border: 1px solid black;
     color: white;
     background-color: lightcoral;
-    width: 100%;
-    margin: 30px;
+
  
 }
 .item2{
+    padding-left: 20px;
     border: 1px solid black;
     color: white;
     background-color: orange;
-    width: 100%;
-    margin: 30px;
+
 }
 .item3{
+    padding-left: 20px;
     border: 1px solid black;
     color: white;
     background-color: palevioletred;
-    width: 100%;
-    margin: 30px;
+
   
 }
-.img{
+/* .image{
     float: right;
-    width: 60px;
+    
     vertical-align: middle;
+} */
+.btn{
+    background-color: white;
+    height: 25px;
+    margin-bottom: 20px;
+    border: 0.5 solid gray; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    outline: none;
+}
+
+.item1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.image{
+    display: flex;
+    width: 60px;
+    
+    
+}
+.item2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.item3{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.inner{
+    margin-right: auto;
+}
+.category a{
+    text-decoration: none;
+    color: black;
+    
+}
+.products-icon{
+    width: 30px;
+    margin-left: 20px;
+   
+}
+.right-side{
+    display: grid;
+    margin: 0 0 0 0;
+    width: 20%;
+}
+.wrap{
+    width: auto;
+    margin-left: 40px;
+    background-color: rgb(240, 240, 240);
+}
+.top{
+    display: flex;
+    margin-left: 30px;
+}
+.bottom{
+    display: flex;
+    margin-left: 30px;    
+}
+.card {
+    width: 30%;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.clothes-icon{
+    display: flex;
+    width:70%;
+    margin: auto
+}
+.contain{
+    display: grid;
+    grid-template-areas: "right-side wrap wrap";
 }
