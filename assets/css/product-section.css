@@ -26,6 +26,7 @@
     width: 80%;
     background-color: rgb(240, 240, 240);
     float: right;
+    padding-bottom: 3%;
 }
 .card {
     width: 30%;
@@ -60,6 +61,7 @@
     /* display: grid; */
     width: 100%;
     display: flex;
+
     /* grid-template-areas: "right-side wrap wrap "; */
 }
 .discount{
@@ -93,4 +95,10 @@
 .product-section{
     width: 100%;
     border: 2px solid black;
+}
+.loadmore{
+    width: 8%;
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 25px;
 }

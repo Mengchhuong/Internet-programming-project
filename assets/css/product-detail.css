@@ -36,6 +36,11 @@
     background-color:  rgb(240, 240, 240);
     width: 80%;
 }
+@media screen and (max-width:800px){
+    .product-detail{
+        width: 100%;
+    }
+}
 .card{
     display: inline-block;
     width: 100%;
