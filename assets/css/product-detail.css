@@ -120,7 +120,7 @@
 .full-price{
     color: red;
     /* float: right; */
-    text-decoration: line-through;
+    text-decoration: line-`ough;
     margin-right: 3%;
 }
 .comment{
@@ -177,4 +177,7 @@
     justify-content: flex-end;
     margin-top: 2%;
     margin-right: 2%;
+}
+.boder{
+    height: 100px;
 }
